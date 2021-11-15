@@ -1,9 +1,9 @@
 const mysql = require("mysql");
 const con = mysql.createConnection({
     host:"localhost",
-    user:"vishu",
-    password:"Qaz@1234",
-    database:"MedicalInventory"
+    user:"username",
+    password:"",
+    database:""
 });
 con.connect((error)=>{
     if(error) throw error;
